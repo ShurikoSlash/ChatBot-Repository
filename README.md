@@ -53,7 +53,7 @@ Ejecución
 2. Ubicarse en la carpeta del proyecto.
 3. Ejecutar:
 
-python Chatbot.py
+python Chat.py
 
 Flujo General
 
