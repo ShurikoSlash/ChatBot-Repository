@@ -1,53 +1,41 @@
-TPI for OE - Programacion I - UTN
-Chatbot de Gestión de Vacaciones
+# ChatBot-Repository
 
-Descripción
+TPI for OE - Organización Empresarial - UTN
 
-Este proyecto consiste en un chatbot desarrollado en Python para automatizar el proceso de solicitud de vacaciones dentro de una empresa.
+## Descripción
 
-El sistema permite que un empleado consulte y solicite sus vacaciones mediante una conversación simple, validando la información ingresada y actualizando los días disponibles de forma automática.
+Chatbot desarrollado en Python que automatiza el proceso de solicitud de vacaciones dentro de una empresa. Permite que un empleado se registre, consulte su saldo disponible y solicite vacaciones mediante una conversación por consola, validando la información ingresada y actualizando los días disponibles de forma automática.
 
-Objetivo
+## Objetivo
 
 Automatizar un proceso administrativo que normalmente se realiza de forma manual, reduciendo tiempos de gestión y minimizando errores humanos.
 
-Tecnologías Utilizadas
+## Tecnologías utilizadas
 
 - Python 3
 - CSV como base de datos simulada
 - GitHub para control de versiones
 
-Archivos del Proyecto
+## Archivos del proyecto
 
-Chatbot.py
+**Chat.py** — Contiene toda la lógica del chatbot.
 
-Contiene toda la lógica del chatbot.
+**vacacionesDB.csv** — Base de datos simulada de empleados. Campos: `dni`, `nombre`, `dias_disponibles`.
 
-vacacionesDB.csv
+**solicitudes_log.csv** — Registro histórico de solicitudes realizadas (se genera automáticamente en modo append).
 
-Base de datos simulada de empleados.
+## Funcionalidades
 
-Campos:
-
-- legajo
-- nombre
-- dias_disponibles
-
-solicitudes_log.csv
-
-Registro histórico de solicitudes realizadas por los empleados.
-
-Funcionalidades
-
-- Validación de legajo.
+- Registro de nuevos empleados (DNI + nombre).
+- Validación de DNI (formato y duplicados).
 - Consulta de días disponibles.
-- Solicitud de vacaciones.
-- Validación de fechas.
+- Solicitud de vacaciones con validación de fechas.
 - Verificación de saldo disponible.
 - Registro de solicitudes aprobadas y rechazadas.
 - Actualización automática del saldo.
+- Creación automática de la base de datos si no existe.
 
-Ejecución
+## Ejecución
 
 1. Abrir una terminal.
 2. Ubicarse en la carpeta del proyecto.
