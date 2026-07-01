@@ -1,4 +1,4 @@
-1. Ejecutar chatbot.py
+1. Ejecutar chat.py
 
 2. Elegir:
 
