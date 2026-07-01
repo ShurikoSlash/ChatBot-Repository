@@ -58,7 +58,7 @@ python Chatbot.py
 Flujo General
 
 1. El usuario escribe "vacaciones".
-2. El sistema solicita el número de legajo.
+2. El sistema solicita el número de DNI.
 3. El sistema verifica la existencia del empleado.
 4. Se solicitan fechas de inicio y fin.
 5. El sistema calcula los días solicitados.
