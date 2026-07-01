@@ -42,6 +42,11 @@ def fecha_a_texto(fecha):
 def cargar_empleados():
     empleados = []
 
+    if not os.path.exists(ARCHIVO_EMPLEADOS):
+        print("Chat Bot: No se encontró la base de empleados, se creará una nueva.")
+        guardar_empleados(empleados)
+        return empleados
+
     with open(ARCHIVO_EMPLEADOS, "r", newline="", encoding="utf-8") as archivo:
         lector = csv.reader(archivo)
         next(lector, None)
