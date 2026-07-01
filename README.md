@@ -43,7 +43,7 @@ Automatizar un proceso administrativo que normalmente se realiza de forma manual
 
 python Chat.py
 
-Flujo General
+## Flujo General
 
 1. El usuario escribe "vacaciones".
 2. El sistema solicita el número de DNI.
@@ -54,13 +54,13 @@ Flujo General
 7. La solicitud es aprobada o rechazada.
 8. Se registra la operación.
 
-Autor
+## Autor
 
 Ezequiel Gómez
 
 Trabajo Práctico Integrador
 
-Organización Empresarial
+## Organización Empresarial
 
 Tecnicatura Universitaria en Programación a Distancia# ChatBot-Repository
 TPI for OE - Programacion I - UTN
